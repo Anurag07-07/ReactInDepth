@@ -17,6 +17,7 @@ import UseStateArrayofObject from './Components/States/UseStateHooks/UseStateArr
 import ComponentOne from './Components/States/UseStateHooks/PassingComponent/ComponentOne'
 import ComponentTwo from './Components/States/UseStateHooks/PassingComponent/ComponentTwo'
 import UseStateFnction from './Components/States/UseStateHooks/UseStateFnction'
+import List from './Components/States/List'
 const card1 = {
   name:"Sophie Bennett",
   description:"Product Designer who focuses on simplicity & usability",
@@ -44,6 +45,8 @@ const App = () => {
        {/* <UseStateArrayofObject></UseStateArrayofObject>
        <ComponentTwo></ComponentTwo>
        <UseStateFnction></UseStateFnction> */}
+       {/* <List></List> */}
+
     </div>
   )
 }

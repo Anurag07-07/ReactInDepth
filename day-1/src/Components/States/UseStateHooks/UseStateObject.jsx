@@ -9,7 +9,7 @@ const UseStateObject = () => {
   function UpdateRating(){
     setMovie({...movie,rating:movie.rating+1})
   }
-
+  
   return (
     <div>
       <div>
