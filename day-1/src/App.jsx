@@ -11,6 +11,12 @@ import ProductList from './Components/ProductList'
 import Card from './Components/Card'
 import photo from './assets/image.png'
 import UseStateHook from './Components/States/UseStateHooks/UseStateHook'
+import UseStateArray from './Components/States/UseStateHooks/UseStateArray'
+import UseStateObject from './Components/States/UseStateHooks/UseStateObject'
+import UseStateArrayofObject from './Components/States/UseStateHooks/UseStateArrayofObject'
+import ComponentOne from './Components/States/UseStateHooks/PassingComponent/ComponentOne'
+import ComponentTwo from './Components/States/UseStateHooks/PassingComponent/ComponentTwo'
+import UseStateFnction from './Components/States/UseStateHooks/UseStateFnction'
 const card1 = {
   name:"Sophie Bennett",
   description:"Product Designer who focuses on simplicity & usability",
@@ -32,7 +38,12 @@ const App = () => {
        <UserList></UserList>
        <ProductList></ProductList> */}
        {/* <Card name={card1.name} description={card1.description} image={card1.image} save={card1.save} followers={card1.followers}></Card> */}
-       <UseStateHook></UseStateHook>
+       {/* <UseStateHook></UseStateHook> */}
+       {/* <UseStateArray></UseStateArray>
+       <UseStateObject></UseStateObject> */}
+       <UseStateArrayofObject></UseStateArrayofObject>
+       <ComponentTwo></ComponentTwo>
+       <UseStateFnction></UseStateFnction>
     </div>
   )
 }
