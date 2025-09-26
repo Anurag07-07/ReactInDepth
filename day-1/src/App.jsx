@@ -37,13 +37,13 @@ const App = () => {
        <Product></Product>
        <UserList></UserList>
        <ProductList></ProductList> */}
-       {/* <Card name={card1.name} description={card1.description} image={card1.image} save={card1.save} followers={card1.followers}></Card> */}
+       <Card name={card1.name} description={card1.description} image={card1.image} save={card1.save} followers={card1.followers}></Card>
        {/* <UseStateHook></UseStateHook> */}
        {/* <UseStateArray></UseStateArray>
        <UseStateObject></UseStateObject> */}
-       <UseStateArrayofObject></UseStateArrayofObject>
+       {/* <UseStateArrayofObject></UseStateArrayofObject>
        <ComponentTwo></ComponentTwo>
-       <UseStateFnction></UseStateFnction>
+       <UseStateFnction></UseStateFnction> */}
     </div>
   )
 }
