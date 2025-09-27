@@ -18,6 +18,9 @@ import ComponentOne from './Components/States/UseStateHooks/PassingComponent/Com
 import ComponentTwo from './Components/States/UseStateHooks/PassingComponent/ComponentTwo'
 import UseStateFnction from './Components/States/UseStateHooks/UseStateFnction'
 import List from './Components/States/List'
+import Assignment1 from './Components/States/UseStateAssignment/Assignment1'
+import Assignment2 from './Components/States/UseStateAssignment/Assignment2'
+import Assingment3 from './Components/States/UseStateAssignment/Assingment3'
 const card1 = {
   name:"Sophie Bennett",
   description:"Product Designer who focuses on simplicity & usability",
@@ -38,7 +41,7 @@ const App = () => {
        <Product></Product>
        <UserList></UserList>
        <ProductList></ProductList> */}
-       <Card name={card1.name} description={card1.description} image={card1.image} save={card1.save} followers={card1.followers}></Card>
+       {/* <Card name={card1.name} description={card1.description} image={card1.image} save={card1.save} followers={card1.followers}></Card> */}
        {/* <UseStateHook></UseStateHook> */}
        {/* <UseStateArray></UseStateArray>
        <UseStateObject></UseStateObject> */}
@@ -46,7 +49,9 @@ const App = () => {
        <ComponentTwo></ComponentTwo>
        <UseStateFnction></UseStateFnction> */}
        {/* <List></List> */}
-
+        {/* <Assignment1></Assignment1> */}
+        <Assignment2></Assignment2>
+        <Assingment3></Assingment3>
     </div>
   )
 }
