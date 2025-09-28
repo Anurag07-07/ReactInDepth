@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const Assignment2 = () => {
+
   const [todos,setTodos] = useState([])
   const [inputValue,setInputValue] = useState("")
 
@@ -19,7 +20,7 @@ const Assignment2 = () => {
   return (
     <div>
       <h1>Todo List</h1>
-      <form onSubmit={submitHandler}>
+      <form className='' onSubmit={submitHandler}>
         <input type='text' onChange={handleChange}  value={inputValue} placeholder='Enter The Todo'></input>
         <button type='submit'>Add Todo</button>
       </form>

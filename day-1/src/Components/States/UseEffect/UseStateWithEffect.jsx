@@ -21,7 +21,7 @@ const UseStateWithEffect = () => {
   return (
     <div>
       <div>Your Name: {name}</div>
-      <input type='text' onChange={handleChange} placeholder='Enter tHe name'></input>
+      <input type='text' onChange={handleChange} placeholder='Enter the name'></input>
       <div onClick={handleClear}>ClearName</div>
     </div>
   )
